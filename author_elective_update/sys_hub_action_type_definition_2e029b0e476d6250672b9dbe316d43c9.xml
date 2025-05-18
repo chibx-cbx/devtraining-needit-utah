@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Use the Get Days Ago Date action to calculate the overdue date to compare against due dates</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>look_up_records</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Look Up Records</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 06:49:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2e029b0e476d6250672b9dbe316d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Look Up Records</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_2e029b0e476d6250672b9dbe316d43c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 06:49:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_variable_value action="DELETE" query="document_key=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_step_instance action="DELETE" query="action=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_action_input action="DELETE" query="model=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_action_output action="DELETE" query="model=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=2e029b0e476d6250672b9dbe316d43c9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3ed1822efb15ae101feef633beefdc27</instance_id>
+        <instance_name>dev347123</instance_name>
+        <name>sys_hub_action_type_definition_2e029b0e476d6250672b9dbe316d43c9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>27000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Use the Get Days Ago Date action to calculate the overdue date to compare against due dates</description><flow_priority/><ih_action>false</ih_action><internal_name>look_up_records</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Look Up Records</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 06:49:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2e029b0e476d6250672b9dbe316d43c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Look Up Records</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_action_type_definition_2e029b0e476d6250672b9dbe316d43c9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 06:49:41</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=2e029b0e476d6250672b9dbe316d43c9"/><sys_variable_value action="delete_multiple" query="document_key=2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_step_instance action="delete_multiple" query="action=2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_action_input action="delete_multiple" query="model=2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_action_output action="delete_multiple" query="model=2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=2e029b0e476d6250672b9dbe316d43c9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_2e029b0e476d6250672b9dbe316d43c9"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_2e029b0e476d6250672b9dbe316d43c9"/><sys_hub_action_plan action="delete_multiple" query="action_id=2e029b0e476d6250672b9dbe316d43c9"/></record_update>]]></payload>
+        <payload_hash>1229959924</payload_hash>
+        <record_name>Look Up Records</record_name>
+        <reverted_from/>
+        <source>89a8470d476d2e10672b9dbe316d43f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 06:49:41</sys_created_on>
+        <sys_id>2a029b0e476d6250672b9dbe316d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e227cc850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 06:49:41</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>ea029b0eec6d6250363dad277b1d94cd</update_guid>
+        <update_guid_history>ea029b0eec6d6250363dad277b1d94cd:1229959924</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 06:53:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>037dc56f4a644803a8cee280ce9836b1</sys_id>
+        <sys_metadata>2e029b0e476d6250672b9dbe316d43c9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Look Up Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_2e029b0e476d6250672b9dbe316d43c9</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_2e029b0e476d6250672b9dbe316d43c9">2a029b0e476d6250672b9dbe316d43ce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 06:53:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
